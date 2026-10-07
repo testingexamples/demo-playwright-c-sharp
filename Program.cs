@@ -13,7 +13,7 @@ await using var browser = await playwright.Chromium.LaunchAsync(new()
 var context = await browser.NewContextAsync();
 var page = await context.NewPageAsync();
 
-await page.GotoAsync("https://testingexamples.github.io");
+await page.GotoAsync("https://testingexamples.github.io/en-001/practice/");
 
 // Playwright locators auto-wait and retry; no explicit waits are needed.
 
